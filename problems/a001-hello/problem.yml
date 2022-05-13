@@ -33,11 +33,11 @@ subtasks:
     - title: Subtask 1
       constraint: There is no space in the input.
       weight: 0.5
-      dir: ./testcases/subtask-1
+      testcases: ./testcases/subtask-1
     - title: Subtask 2
       constraint: Good luck! No more constraints.
       weight: 0.5
-      dir: ./testcases/subtask-2
+      testcases: ./testcases/subtask-2
 
 hint:
     - You should also take care about spaces!

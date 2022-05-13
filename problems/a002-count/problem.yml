@@ -31,13 +31,13 @@ examples:
 subtasks:
     - constraint: Numbers are in the range of `[1, 1000]`. Step is always `1`.
       weight: 0.3
-      dir: ./testcases/subtask-1
+      testcases: ./testcases/subtask-1
     - constraint: Numbers are in the range of `[-100000, 100000]`.
       weight: 0.3
-      dir: ./testcases/subtask-2
+      testcases: ./testcases/subtask-2
     - constraint: Numbers are in the range of `[-1000000000000, 1000000000000]`.
       weight: 0.4
-      dir: ./testcases/subtask-3
+      testcases: ./testcases/subtask-3
 
 hint:
     - "`1000000000000` is larger than `2147483647`."
